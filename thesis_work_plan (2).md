@@ -21,9 +21,11 @@
 
 ### Day 1-2: Expand EOF Analysis to Multiple Ensemble Members
 
-**Goal:** Perform EOF analysis on multiple ensemble members of the same model
+**Goal:** Create masked files for all members and perform EOF analysis on multiple ensemble members of the same model
 
 **Steps:**
+
+Make the masks.
 
 1. **Select your model and members:**
    ```python
