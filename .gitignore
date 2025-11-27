@@ -18,21 +18,16 @@ miniforge3/
 __pycache__/
 *.pyc
 
-# Ignore heavy model folders
-Comparisons/
-Comparisons*/
-EOF/**/Figures/
-EOF/CESM2/
-EOF/EOF_diagnostics/
-
 # Ignore masks
 mask_bool_*.nc
 
 # Ignore misc
-*.png
 *.jpg
 *.jpeg
 *.svg
 *.pdf
+*.png
+
 
 # You can whitelist specific important plots like:
+!EOF/important_figures/*
