@@ -1,0 +1,4 @@
+k,r2_train,corr_train,r2_test,corr_test,subset_idx,subset_features,candidate_source,candidate_method,selected_by,amoc_variant,amoc_var_used,run_label
+1,0.2504672512932289,0.5004803659835289,-1.0099516394062236,-0.4350415592262984,0,thetao W20p0 EOF2 lag6,spike_curve_post.csv,all,train,normal,AMOC_45N_member,r6i1p1f1
+2,0.373970755530333,0.6115473096675238,-0.5676420773736448,-0.46677222781175254,"5,37",thetao W10p0 EOF4 lag9 | so W20p0 EOF2 lag6,spike_curve_post.csv,all,train,normal,AMOC_45N_member,r6i1p1f1
+3,0.41588576297270785,0.6449004733743693,-0.5675490693994605,-0.4809630233587437,"2,5,37",so W60p0 EOF2 lag4 | thetao W10p0 EOF4 lag9 | so W20p0 EOF2 lag6,spike_curve_post.csv,all,train,normal,AMOC_45N_member,r6i1p1f1

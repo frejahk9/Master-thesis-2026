@@ -1,0 +1,37 @@
+MODEL=IPSL-CM6A-LR
+TARGET=AMOC_45N_ensmean
+MODE=ensmean
+TRAIN_END_YEAR=1989
+GLOBAL_MAXLAG=20
+ALPHA=50
+DETREND_Y=True
+DETREND_X=True
+
+Best subsets by k:
+
+K=1  R2_test=0.804708  corr_test=0.923986
+so W60p0 EOF1 lag0
+
+K=2  R2_test=0.872689  corr_test=0.946767
+so W60p0 EOF1 lag0 | so W30p0 EOF1 lag4
+
+K=3  R2_test=0.885091  corr_test=0.954123
+so W60p0 EOF1 lag0 | so W30p0 EOF1 lag4 | so W30p0 EOF1 lag3
+
+K=4  R2_test=0.881688  corr_test=0.957883
+so W60p0 EOF1 lag0 | so W30p0 EOF1 lag4 | so W10p0 EOF5 lag20 | so W30p0 EOF1 lag3
+
+K=5  R2_test=0.890934  corr_test=0.946174
+thetao W60p0 EOF2 lag0 | so W60p0 EOF1 lag0 | so W30p0 EOF1 lag4 | so W10p0 EOF5 lag20 | so W30p0 EOF1 lag3
+
+K=6  R2_test=0.890955  corr_test=0.944771
+thetao W60p0 EOF2 lag0 | so W60p0 EOF1 lag0 | so W30p0 EOF1 lag4 | so W10p0 EOF5 lag20 | so W30p0 EOF1 lag3 | so W30p0 EOF9 lag16
+
+K=7  R2_test=0.876148  corr_test=0.937244
+so W60p0 EOF1 lag3 | thetao W60p0 EOF2 lag0 | so W60p0 EOF1 lag0 | so W30p0 EOF1 lag4 | so W10p0 EOF5 lag20 | so W30p0 EOF1 lag3 | so W30p0 EOF9 lag16
+
+K=8  R2_test=0.861146  corr_test=0.935334
+thetao W10p0 EOF2 lag16 | so W60p0 EOF1 lag3 | thetao W60p0 EOF2 lag0 | so W60p0 EOF1 lag0 | so W30p0 EOF1 lag4 | so W10p0 EOF5 lag20 | so W30p0 EOF1 lag3 | so W30p0 EOF9 lag16
+
+K=9  R2_test=0.844364  corr_test=0.921894
+so W60p0 EOF1 lag8 | thetao W10p0 EOF2 lag16 | so W60p0 EOF1 lag3 | thetao W60p0 EOF2 lag0 | so W60p0 EOF1 lag0 | so W30p0 EOF1 lag4 | so W10p0 EOF5 lag20 | so W30p0 EOF1 lag3 | so W30p0 EOF9 lag16

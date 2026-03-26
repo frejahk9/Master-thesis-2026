@@ -1,0 +1,45 @@
+IMPORTANT FEATURES SUMMARY
+==========================
+
+MODEL=IPSL-CM6A-LR
+TARGET=AMOC_45N_member
+MODE=member
+FEATURE_SOURCE=best_train
+FIXED_K=3
+USE_R2_WEIGHT=True
+N_RUNS_USED=33
+TOP_N=20
+
+Top features by frequency:
+  thetao W40p0 EOF3 lag0: count=31
+  thetao W60p0 EOF2 lag0: count=5
+  so W30p0 EOF1 lag4: count=4
+  thetao W30p0 EOF4 lag0: count=4
+  so W30p0 EOF2 lag0: count=3
+  thetao W20p0 EOF1 lag3: count=3
+  so W30p0 EOF1 lag1: count=2
+  so W60p0 EOF1 lag0: count=2
+  thetao W20p0 EOF1 lag4: count=2
+  thetao W30p0 EOF4 lag3: count=2
+  so W10p0 EOF1 lag16: count=1
+  so W10p0 EOF4 lag1: count=1
+  so W10p0 EOF4 lag16: count=1
+  so W20p0 EOF4 lag2: count=1
+  so W20p0 EOF4 lag3: count=1
+
+Top features by weighted score:
+  thetao W40p0 EOF3 lag0: weighted_score=19.9174, count=31
+  thetao W60p0 EOF2 lag0: weighted_score=3.2587, count=5
+  thetao W30p0 EOF4 lag0: weighted_score=2.5725, count=4
+  so W30p0 EOF1 lag4: weighted_score=2.5598, count=4
+  thetao W20p0 EOF1 lag3: weighted_score=2.2298, count=3
+  so W30p0 EOF2 lag0: weighted_score=1.7274, count=3
+  thetao W20p0 EOF1 lag4: weighted_score=1.2791, count=2
+  so W60p0 EOF1 lag0: weighted_score=1.2788, count=2
+  thetao W30p0 EOF4 lag3: weighted_score=1.2471, count=2
+  so W30p0 EOF1 lag1: weighted_score=1.2073, count=2
+  thetao W10p0 EOF1 lag17: weighted_score=0.7584, count=1
+  thetao W30p0 EOF1 lag9: weighted_score=0.7584, count=1
+  thetao W40p0 EOF5 lag0: weighted_score=0.7558, count=1
+  thetao W20p0 EOF1 lag1: weighted_score=0.7438, count=1
+  so W20p0 EOF4 lag3: weighted_score=0.7331, count=1

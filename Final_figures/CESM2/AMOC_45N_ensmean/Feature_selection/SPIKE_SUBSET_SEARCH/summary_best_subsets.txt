@@ -1,0 +1,43 @@
+MODEL=CESM2
+TARGET=AMOC_45N_ensmean
+MODE=ensmean
+TRAIN_END_YEAR=1989
+GLOBAL_MAXLAG=6
+ALPHA=1
+DETREND_Y=True
+DETREND_X=True
+SPIKE_CURVE_CSV=/data/users/frekle/Final_figures/CESM2/AMOC_45N_ensmean/Feature_selection/spike_curve_post.csv
+CANDIDATE_METHOD=top_delta
+CURVE_NS=[2, 3, 5, 6, 7, 8, 10, 11, 17, 23]
+
+Best subsets by k:
+
+K=1  R2_test=0.839018  corr_test=0.955450
+thetao W10p0 EOF2 lag2
+
+K=2  R2_test=0.906772  corr_test=0.966024
+thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag6
+
+K=3  R2_test=0.911636  corr_test=0.963985
+thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag6
+
+K=4  R2_test=0.912059  corr_test=0.964293
+thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag6
+
+K=5  R2_test=0.858685  corr_test=0.966735
+thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag6 | so W30p0 EOF1 lag0
+
+K=6  R2_test=0.831218  corr_test=0.969462
+thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | so W10p0 EOF1 lag1 | thetao W10p0 EOF2 lag6 | so W30p0 EOF1 lag0
+
+K=7  R2_test=0.783329  corr_test=0.968159
+thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | so W10p0 EOF1 lag1 | thetao W30p0 EOF2 lag1 | thetao W10p0 EOF2 lag6 | so W30p0 EOF1 lag0
+
+K=8  R2_test=0.763868  corr_test=0.966173
+thetao W40p0 EOF2 lag1 | thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | so W10p0 EOF1 lag1 | thetao W30p0 EOF2 lag1 | thetao W10p0 EOF2 lag6 | so W30p0 EOF1 lag0
+
+K=9  R2_test=0.740867  corr_test=0.964887
+thetao W40p0 EOF2 lag1 | thetao W40p0 EOF2 lag2 | thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | so W10p0 EOF1 lag1 | thetao W30p0 EOF2 lag1 | thetao W10p0 EOF2 lag6 | so W30p0 EOF1 lag0
+
+K=10  R2_test=0.714702  corr_test=0.967093
+thetao W40p0 EOF2 lag1 | thetao W40p0 EOF2 lag2 | thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | so W10p0 EOF1 lag1 | thetao W30p0 EOF2 lag1 | thetao W40p0 EOF2 lag3 | thetao W10p0 EOF2 lag6 | so W30p0 EOF1 lag0

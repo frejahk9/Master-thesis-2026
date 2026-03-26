@@ -1,0 +1,4 @@
+k,test_r2,cols,features
+1,0.2563265085958337,"(2,)",so W10p0 EOF1 lag1
+3,-0.7783755177525682,"(0, 1, 2)",thetao W10p0 EOF2 lag4 | thetao W40p0 EOF2 lag0 | so W10p0 EOF1 lag1
+2,-1.1944491232476957,"(0, 1)",thetao W10p0 EOF2 lag4 | thetao W40p0 EOF2 lag0

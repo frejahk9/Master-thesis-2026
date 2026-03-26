@@ -1,0 +1,13 @@
+Top spikes (ΔR² >= 0.02) — OVERALL metric
+ranked curve length = 200
+
+n=  3  ΔR²=0.202  R²=0.514  | so W60p0 EOF1 lag8
+n=  5  ΔR²=0.189  R²=0.720  | thetao W10p0 EOF2 lag16
+n=107  ΔR²=0.040  R²=0.587  | so W30p0 EOF9 lag12
+n= 16  ΔR²=0.039  R²=0.677  | thetao W60p0 EOF2 lag0
+n=183  ΔR²=0.035  R²=0.359  | so W10p0 EOF8 lag18
+n=  2  ΔR²=0.032  R²=0.312  | so W60p0 EOF1 lag2
+n=184  ΔR²=0.031  R²=0.389  | so W10p0 EOF8 lag19
+n= 20  ΔR²=0.030  R²=0.717  | so W60p0 EOF1 lag0
+n=145  ΔR²=0.029  R²=0.302  | thetao W20p0 EOF9 lag6
+n=178  ΔR²=0.024  R²=0.356  | thetao W60p0 EOF6 lag15

@@ -1,0 +1,83 @@
+MODEL=IPSL-CM6A-LR
+TARGET=AMOC_45N_ensmean
+MODE=ensmean
+TRAIN_END_YEAR=1989
+GLOBAL_MAXLAG=19
+ALPHA=50
+DETREND_Y=True
+DETREND_X=True
+OBJECTIVE=test_r2
+
+Candidate features:
+  C1: so W60p0 EOF1 lag2
+  C2: so W60p0 EOF1 lag8
+  C3: thetao W10p0 EOF2 lag16
+  C4: thetao W60p0 EOF2 lag0
+  C5: so W60p0 EOF1 lag0
+  C6: so W30p0 EOF9 lag12
+  C7: thetao W20p0 EOF9 lag6
+  C8: thetao W60p0 EOF6 lag15
+  C9: so W10p0 EOF8 lag18
+  C10: so W10p0 EOF8 lag19
+
+Best subsets by k:
+
+K=1
+  test_r2=0.742146  test_corr=0.892387
+  overall_r2=0.619046  overall_corr=0.788370
+  calib_a=1.413223  calib_b=-0.000000
+  thetao W60p0 EOF2 lag0
+
+K=2
+  test_r2=0.839421  test_corr=0.932702
+  overall_r2=0.690553  overall_corr=0.834692
+  calib_a=1.324044  calib_b=-0.000000
+  so W60p0 EOF1 lag0 | thetao W20p0 EOF9 lag6
+
+K=3
+  test_r2=0.838558  test_corr=0.930972
+  overall_r2=0.707435  overall_corr=0.844345
+  calib_a=1.201656  calib_b=-0.000000
+  so W60p0 EOF1 lag2 | so W60p0 EOF1 lag0 | thetao W20p0 EOF9 lag6
+
+K=4
+  test_r2=0.853656  test_corr=0.932067
+  overall_r2=0.718468  overall_corr=0.849080
+  calib_a=1.203556  calib_b=-0.000000
+  so W60p0 EOF1 lag2 | so W60p0 EOF1 lag0 | thetao W20p0 EOF9 lag6 | thetao W60p0 EOF6 lag15
+
+K=5
+  test_r2=0.849277  test_corr=0.932516
+  overall_r2=0.717686  overall_corr=0.849588
+  calib_a=1.209335  calib_b=-0.000000
+  so W60p0 EOF1 lag2 | so W60p0 EOF1 lag0 | thetao W20p0 EOF9 lag6 | thetao W60p0 EOF6 lag15 | so W10p0 EOF8 lag19
+
+K=6
+  test_r2=0.846175  test_corr=0.923520
+  overall_r2=0.706920  overall_corr=0.841815
+  calib_a=1.209734  calib_b=-0.000000
+  thetao W60p0 EOF2 lag0 | so W60p0 EOF1 lag0 | thetao W20p0 EOF9 lag6 | thetao W60p0 EOF6 lag15 | so W10p0 EOF8 lag18 | so W10p0 EOF8 lag19
+
+K=7
+  test_r2=0.826184  test_corr=0.914815
+  overall_r2=0.703552  overall_corr=0.840732
+  calib_a=1.195755  calib_b=-0.000000
+  thetao W60p0 EOF2 lag0 | so W60p0 EOF1 lag0 | so W30p0 EOF9 lag12 | thetao W20p0 EOF9 lag6 | thetao W60p0 EOF6 lag15 | so W10p0 EOF8 lag18 | so W10p0 EOF8 lag19
+
+K=8
+  test_r2=0.818240  test_corr=0.909667
+  overall_r2=0.720261  overall_corr=0.849434
+  calib_a=1.148195  calib_b=-0.000000
+  so W60p0 EOF1 lag2 | thetao W10p0 EOF2 lag16 | thetao W60p0 EOF2 lag0 | so W60p0 EOF1 lag0 | thetao W20p0 EOF9 lag6 | thetao W60p0 EOF6 lag15 | so W10p0 EOF8 lag18 | so W10p0 EOF8 lag19
+
+K=9
+  test_r2=0.805084  test_corr=0.904527
+  overall_r2=0.717678  overall_corr=0.849307
+  calib_a=1.143291  calib_b=-0.000000
+  so W60p0 EOF1 lag2 | thetao W10p0 EOF2 lag16 | thetao W60p0 EOF2 lag0 | so W60p0 EOF1 lag0 | so W30p0 EOF9 lag12 | thetao W20p0 EOF9 lag6 | thetao W60p0 EOF6 lag15 | so W10p0 EOF8 lag18 | so W10p0 EOF8 lag19
+
+K=10
+  test_r2=0.667332  test_corr=0.896467
+  overall_r2=0.704930  overall_corr=0.863471
+  calib_a=1.155370  calib_b=-0.000000
+  so W60p0 EOF1 lag2 | so W60p0 EOF1 lag8 | thetao W10p0 EOF2 lag16 | thetao W60p0 EOF2 lag0 | so W60p0 EOF1 lag0 | so W30p0 EOF9 lag12 | thetao W20p0 EOF9 lag6 | thetao W60p0 EOF6 lag15 | so W10p0 EOF8 lag18 | so W10p0 EOF8 lag19

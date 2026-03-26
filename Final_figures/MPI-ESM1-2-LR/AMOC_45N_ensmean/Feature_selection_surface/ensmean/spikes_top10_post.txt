@@ -1,0 +1,9 @@
+n=  3  ΔR²=+0.147  R²=0.708  | feature: var=so, mode=8, lag=1
+n=  4  ΔR²=+0.065  R²=0.772  | feature: var=so, mode=8, lag=2
+n=  5  ΔR²=+0.048  R²=0.820  | feature: var=so, mode=4, lag=0
+n= 14  ΔR²=+0.038  R²=0.908  | feature: var=so, mode=4, lag=5
+n= 19  ΔR²=+0.023  R²=0.940  | feature: var=so, mode=10, lag=6
+n= 22  ΔR²=+0.017  R²=0.971  | feature: var=so, mode=4, lag=3
+n=  6  ΔR²=+0.016  R²=0.837  | feature: var=so, mode=10, lag=7
+n= 21  ΔR²=+0.014  R²=0.955  | feature: var=so, mode=4, lag=7
+n=  7  ΔR²=+0.014  R²=0.850  | feature: var=so, mode=8, lag=3

@@ -1,0 +1,2 @@
+run_label,mode,member_id,best_k,best_test_r2,best_train_r2,n_k_rows,outdir
+r1i1p1f1,member,r1i1p1f1,2,-1.942001360166849,0.5492872935021766,3,/data/users/frekle/Final_figures/CESM2/AMOC_45N_member/Best_test_R2/r1i1p1f1/Not_detrended/Selected_on_train/amoc_variant_normal/minlag_4

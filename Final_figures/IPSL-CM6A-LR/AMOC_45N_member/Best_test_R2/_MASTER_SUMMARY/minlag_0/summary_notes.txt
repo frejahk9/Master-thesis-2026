@@ -1,0 +1,17 @@
+MODEL=IPSL-CM6A-LR
+TARGET=AMOC_45N_member
+MODE=member
+AMOC_VARIANT=normal
+N_RUNS=33
+
+Top runs by best_test_r2:
+r33i1p1f1: best_k=2  best_test_r2=0.6124  best_train_r2=0.6283
+r32i1p1f1: best_k=3  best_test_r2=0.5584  best_train_r2=0.5736
+r15i1p1f1: best_k=1  best_test_r2=0.4810  best_train_r2=0.5322
+r25i1p1f1: best_k=3  best_test_r2=0.4174  best_train_r2=0.7438
+r21i1p1f1: best_k=1  best_test_r2=0.4084  best_train_r2=0.5350
+r30i1p1f1: best_k=1  best_test_r2=0.3672  best_train_r2=0.5096
+r11i1p1f1: best_k=3  best_test_r2=0.3394  best_train_r2=0.7558
+r19i1p1f1: best_k=3  best_test_r2=0.3107  best_train_r2=0.6416
+r31i1p1f1: best_k=2  best_test_r2=0.2973  best_train_r2=0.5747
+r14i1p1f1: best_k=3  best_test_r2=0.2857  best_train_r2=0.6718

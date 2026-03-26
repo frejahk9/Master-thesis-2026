@@ -1,0 +1,39 @@
+MODEL=IPSL-CM6A-LR
+TARGET=AMOC_45N_ensmean
+MODE=ensmean
+TRAIN_END_YEAR=1989
+GLOBAL_MAXLAG=20
+ALPHA=50.0
+DETREND_Y=True
+DETREND_X=True
+ORDER_MODE=greedy_best_first
+K_WATERFALL=5
+
+Chosen spike subset (input):
+  thetao W60p0 EOF2 lag0
+  so W60p0 EOF1 lag0
+  so W30p0 EOF1 lag4
+  so W10p0 EOF5 lag20
+  so W30p0 EOF1 lag3
+
+Greedy / chosen order + scores:
+
+STEP 1  R2_test=0.804708  ΔR2=+0.804708  corr=0.923986
+Added: so W60p0 EOF1 lag0
+Set:   so W60p0 EOF1 lag0
+
+STEP 2  R2_test=0.872689  ΔR2=+0.067981  corr=0.946767
+Added: so W30p0 EOF1 lag4
+Set:   so W60p0 EOF1 lag0 | so W30p0 EOF1 lag4
+
+STEP 3  R2_test=0.885091  ΔR2=+0.012402  corr=0.954123
+Added: so W30p0 EOF1 lag3
+Set:   so W60p0 EOF1 lag0 | so W30p0 EOF1 lag4 | so W30p0 EOF1 lag3
+
+STEP 4  R2_test=0.881688  ΔR2=-0.003403  corr=0.957883
+Added: so W10p0 EOF5 lag20
+Set:   so W60p0 EOF1 lag0 | so W30p0 EOF1 lag4 | so W30p0 EOF1 lag3 | so W10p0 EOF5 lag20
+
+STEP 5  R2_test=0.890934  ΔR2=+0.009245  corr=0.946174
+Added: thetao W60p0 EOF2 lag0
+Set:   so W60p0 EOF1 lag0 | so W30p0 EOF1 lag4 | so W30p0 EOF1 lag3 | so W10p0 EOF5 lag20 | thetao W60p0 EOF2 lag0

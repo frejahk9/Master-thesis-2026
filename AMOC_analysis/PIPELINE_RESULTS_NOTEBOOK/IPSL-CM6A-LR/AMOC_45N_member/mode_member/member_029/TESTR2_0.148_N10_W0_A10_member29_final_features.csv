@@ -1,0 +1,11 @@
+var,lon,mode,mode0,lag
+so,W60p0,2,1,0
+thetao,W10p0,2,1,0
+thetao,W10p0,5,4,24
+thetao,W10p0,5,4,25
+thetao,W10p0,6,5,19
+thetao,W10p0,9,8,18
+thetao,W10p0,9,8,19
+thetao,W30p0,5,4,0
+thetao,W30p0,9,8,19
+thetao,W60p0,2,1,0

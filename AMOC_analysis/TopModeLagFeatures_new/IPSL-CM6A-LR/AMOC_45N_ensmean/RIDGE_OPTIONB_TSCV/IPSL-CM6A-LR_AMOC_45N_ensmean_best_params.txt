@@ -1,0 +1,10 @@
+N_seeds: 50.0
+W: 1.0
+alpha: 100.0
+mean_val_r2: -0.22417055785814
+std_val_r2: 0.2719141608940142
+mean_val_corr: 0.2324218080794888
+mean_val_var_ratio: 0.40153958007698964
+mean_n_features: 87.5
+mean_max_lag: 25.0
+n_folds_used: 4.0

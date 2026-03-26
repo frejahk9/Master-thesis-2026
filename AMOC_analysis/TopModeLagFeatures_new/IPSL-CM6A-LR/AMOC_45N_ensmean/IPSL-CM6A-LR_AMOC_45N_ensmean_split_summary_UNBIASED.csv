@@ -1,0 +1,2 @@
+model,target,year_start,year_end,T_total,test_frac,T_train,T_test,train_start,train_end,test_start,test_end
+IPSL-CM6A-LR,AMOC_45N_ensmean,1850,2014,165,0.2,132,33,1850,1981,1982,2014

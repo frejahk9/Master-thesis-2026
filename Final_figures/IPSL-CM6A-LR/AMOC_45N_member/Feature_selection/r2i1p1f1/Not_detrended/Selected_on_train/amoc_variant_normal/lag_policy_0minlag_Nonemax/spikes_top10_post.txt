@@ -1,0 +1,15 @@
+Top curve-selected candidate steps (mapped to ranked features)
+MODEL=IPSL-CM6A-LR  TARGET=AMOC_45N_member  MODE=member  RUN=r2i1p1f1
+curve_file=/data/users/frekle/Final_figures/IPSL-CM6A-LR/AMOC_45N_member/Feature_selection/r2i1p1f1/spike_curve_post.csv
+candidate_method=all  topK=10  score_col=None
+
+n=  1  curve_r2=0.0156  feature=thetao W40p0 EOF3 lag0
+n=  2  curve_r2=0.0494  feature=thetao W60p0 EOF2 lag0
+n=  3  curve_r2=0.0652  feature=so W60p0 EOF1 lag1
+n=  4  curve_r2=0.0765  feature=thetao W60p0 EOF2 lag1
+n=  5  curve_r2=0.0922  feature=so W60p0 EOF1 lag2
+n=  6  curve_r2=0.1070  feature=thetao W60p0 EOF2 lag2
+n=  7  curve_r2=0.1236  feature=so W60p0 EOF1 lag0
+n=  8  curve_r2=0.1237  feature=thetao W10p0 EOF1 lag0
+n=  9  curve_r2=0.1633  feature=thetao W10p0 EOF1 lag4
+n= 10  curve_r2=0.1852  feature=so W40p0 EOF2 lag2

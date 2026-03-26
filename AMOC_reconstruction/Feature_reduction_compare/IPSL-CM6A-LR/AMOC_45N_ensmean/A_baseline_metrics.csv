@@ -1,0 +1,2 @@
+method,L_contig,n_features,alpha_chosen_on_val,R2_test,corr_test,var_ratio_test,mae_test,rmse_test
+A_baseline_all_features,10,1000,1e-06,0.8555176516040983,0.9388000194831272,0.7788024125077517,0.1532502732197091,0.19280106915736023

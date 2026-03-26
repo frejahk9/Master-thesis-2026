@@ -1,0 +1,12 @@
+var,lon_tag,mode,lags_in_topK
+so,W10p0,2,25
+so,W30p0,9,"0,1"
+so,W40p0,5,23
+so,W40p0,10,20
+so,W60p0,4,"5,12"
+so,W60p0,8,14
+thetao,W10p0,8,"13,25"
+thetao,W20p0,10,23
+thetao,W60p0,8,5
+thetao,W60p0,9,"3,14"
+thetao,W60p0,10,0

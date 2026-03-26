@@ -1,0 +1,40 @@
+MODEL=CESM2
+TARGET=AMOC_45N_ensmean
+MODE=ensmean
+TRAIN_END_YEAR=1989
+GLOBAL_MAXLAG=6
+ALPHA=50
+DETREND_Y=True
+DETREND_X=True
+
+Best subsets by k:
+
+K=1  R2_test=0.405075  corr_test=0.955450
+thetao W10p0 EOF2 lag2
+
+K=2  R2_test=0.760304  corr_test=0.969144
+thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag1
+
+K=3  R2_test=0.853696  corr_test=0.978432
+thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6
+
+K=4  R2_test=0.886932  corr_test=0.974374
+thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6
+
+K=5  R2_test=0.895917  corr_test=0.971664
+thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6
+
+K=6  R2_test=0.900860  corr_test=0.970313
+thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag5 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6
+
+K=7  R2_test=0.874028  corr_test=0.969010
+thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag5 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6 | thetao W30p0 EOF2 lag0
+
+K=8  R2_test=0.828964  corr_test=0.973085
+thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | so W10p0 EOF1 lag1 | thetao W10p0 EOF2 lag5 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6 | thetao W30p0 EOF2 lag0
+
+K=9  R2_test=0.790921  corr_test=0.973127
+thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | so W10p0 EOF1 lag1 | thetao W10p0 EOF2 lag5 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6 | thetao W30p0 EOF2 lag0 | so W30p0 EOF1 lag3
+
+K=10  R2_test=0.729582  corr_test=0.973770
+thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | so W10p0 EOF1 lag1 | thetao W10p0 EOF2 lag5 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6 | thetao W20p0 EOF2 lag1 | thetao W30p0 EOF2 lag0 | so W30p0 EOF1 lag3

@@ -1,0 +1,21 @@
+MASTER SUMMARY OF BEST SUBSETS
+==============================
+
+MODEL=IPSL-CM6A-LR
+TARGET=AMOC_45N_member
+MODE=member
+SELECT_ON=train
+AMOC_VARIANT=normal
+MIN_LAG=0
+MAX_LAG=None
+BEST_BY=r2_train
+TIEBREAK_BY=r2_train
+N_RUNS=1
+
+Best subset per run:
+  Not_detrended: k=3  r2_train=0.6268  r2_test=-0.1909  features=thetao W30p0 EOF4 lag3 | thetao W40p0 EOF3 lag0 | thetao W30p0 EOF1 lag16
+
+Best subset per k across runs:
+  k=1: run=Not_detrended  r2_train=0.5196  r2_test=0.2111  features=thetao W60p0 EOF2 lag0
+  k=2: run=Not_detrended  r2_train=0.5852  r2_test=-0.2146  features=thetao W30p0 EOF4 lag0 | thetao W30p0 EOF1 lag16
+  k=3: run=Not_detrended  r2_train=0.6268  r2_test=-0.1909  features=thetao W30p0 EOF4 lag3 | thetao W40p0 EOF3 lag0 | thetao W30p0 EOF1 lag16

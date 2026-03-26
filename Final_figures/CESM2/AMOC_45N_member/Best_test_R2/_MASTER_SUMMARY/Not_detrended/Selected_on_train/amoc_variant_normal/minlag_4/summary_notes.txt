@@ -1,0 +1,17 @@
+MODEL=CESM2
+TARGET=AMOC_45N_member
+MODE=member
+AMOC_VARIANT=normal
+N_RUNS=10
+
+Top runs by best_test_r2:
+r6i1p1f1: best_k=1  best_test_r2=0.4797  best_train_r2=0.3938
+r7i1p1f1: best_k=3  best_test_r2=-0.2834  best_train_r2=0.4782
+r9i1p1f1: best_k=3  best_test_r2=-0.3045  best_train_r2=0.4597
+r2i1p1f1: best_k=2  best_test_r2=-0.9279  best_train_r2=0.4285
+r3i1p1f1: best_k=2  best_test_r2=-1.2137  best_train_r2=0.4322
+r10i1p1f1: best_k=3  best_test_r2=-1.2968  best_train_r2=0.2202
+r4i1p1f1: best_k=3  best_test_r2=-1.8019  best_train_r2=0.4181
+r1i1p1f1: best_k=2  best_test_r2=-1.9420  best_train_r2=0.5493
+r5i1p1f1: best_k=1  best_test_r2=-1.9965  best_train_r2=0.4543
+r8i1p1f1: best_k=1  best_test_r2=-2.1286  best_train_r2=0.5628

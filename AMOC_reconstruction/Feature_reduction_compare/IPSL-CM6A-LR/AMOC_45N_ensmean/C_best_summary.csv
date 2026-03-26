@@ -1,0 +1,2 @@
+best_by,K_groups,n_features,alpha_chosen_on_val,R2_test,corr_test,var_ratio_test,mae_test,rmse_test
+val_R2,60,600,1e-06,0.7808635740482673,0.9270344517612438,0.6493495754079059,0.20711251657206414,0.241726131213728

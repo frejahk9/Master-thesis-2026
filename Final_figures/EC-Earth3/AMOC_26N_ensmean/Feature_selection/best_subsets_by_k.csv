@@ -1,0 +1,6 @@
+k,r2_test,corr_test,subset_idx,subset_features,candidate_source,candidate_method
+1,0.17204539402194807,0.8054380935171488,39,so W40p0 EOF2 lag8,spike_curve_post.csv,all
+2,0.24228475206405542,0.8265062963462647,"24,39",thetao W30p0 EOF2 lag18 | so W40p0 EOF2 lag8,spike_curve_post.csv,all
+3,0.2328503907349968,0.8294451813142343,"24,39,50",thetao W30p0 EOF2 lag18 | so W40p0 EOF2 lag8 | so W40p0 EOF2 lag9,spike_curve_post.csv,all
+4,0.21554356952674292,0.8308226031813494,"24,39,40,50",thetao W30p0 EOF2 lag18 | so W40p0 EOF2 lag8 | so W40p0 EOF2 lag7 | so W40p0 EOF2 lag9,spike_curve_post.csv,all
+5,0.18601719398088123,0.8085727119911001,"17,18,39,50,57",thetao W30p0 EOF2 lag19 | thetao W30p0 EOF2 lag20 | so W40p0 EOF2 lag8 | so W40p0 EOF2 lag9 | so W40p0 EOF2 lag10,spike_curve_post.csv,all

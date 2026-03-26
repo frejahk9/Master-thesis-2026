@@ -1,0 +1,11 @@
+run_label,k,subset_features,score
+r10i1p1f1,3,thetao W20p0 EOF2 lag4 | so W30p0 EOF1 lag4 | so W20p0 EOF1 lag4,0.2202385741143749
+r1i1p1f1,3,so W10p0 EOF3 lag11 | so W60p0 EOF2 lag17 | so W30p0 EOF4 lag11,0.5492872935021766
+r2i1p1f1,3,thetao W30p0 EOF2 lag7 | thetao W60p0 EOF1 lag4 | thetao W10p0 EOF2 lag10,0.4285370171863937
+r3i1p1f1,3,thetao W40p0 EOF2 lag4 | thetao W40p0 EOF2 lag9 | so W60p0 EOF4 lag14,0.4322466350264204
+r4i1p1f1,3,thetao W60p0 EOF1 lag9 | so W30p0 EOF1 lag4 | so W30p0 EOF1 lag9,0.4180614083928292
+r5i1p1f1,3,thetao W20p0 EOF2 lag4 | so W10p0 EOF1 lag12 | so W20p0 EOF1 lag16,0.4543006248159679
+r6i1p1f1,3,so W40p0 EOF4 lag20 | so W10p0 EOF3 lag18 | so W10p0 EOF1 lag4,0.3938139050467321
+r7i1p1f1,3,so W30p0 EOF2 lag20 | thetao W30p0 EOF2 lag6 | thetao W20p0 EOF2 lag4,0.4781574451037673
+r8i1p1f1,3,thetao W60p0 EOF5 lag7 | thetao W60p0 EOF2 lag15 | so W60p0 EOF1 lag17,0.5628337615948114
+r9i1p1f1,3,thetao W60p0 EOF5 lag6 | thetao W10p0 EOF5 lag7 | thetao W60p0 EOF7 lag7,0.4597405566166593

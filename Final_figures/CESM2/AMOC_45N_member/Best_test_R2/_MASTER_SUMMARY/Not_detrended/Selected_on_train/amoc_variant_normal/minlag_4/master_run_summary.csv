@@ -1,0 +1,11 @@
+run_label,mode,member_id,best_k,best_test_r2,best_train_r2,n_k_rows,outdir
+r10i1p1f1,member,r10i1p1f1,3,-1.2968402535466885,0.22023857411437497,3,/data/users/frekle/Final_figures/CESM2/AMOC_45N_member/Best_test_R2/r10i1p1f1/Not_detrended/Selected_on_train/amoc_variant_normal/minlag_4
+r1i1p1f1,member,r1i1p1f1,2,-1.942001360166849,0.5492872935021766,3,/data/users/frekle/Final_figures/CESM2/AMOC_45N_member/Best_test_R2/r1i1p1f1/Not_detrended/Selected_on_train/amoc_variant_normal/minlag_4
+r2i1p1f1,member,r2i1p1f1,2,-0.9278540587441804,0.4285370171863937,3,/data/users/frekle/Final_figures/CESM2/AMOC_45N_member/Best_test_R2/r2i1p1f1/Not_detrended/Selected_on_train/amoc_variant_normal/minlag_4
+r3i1p1f1,member,r3i1p1f1,2,-1.2136788231978968,0.43224663502642047,3,/data/users/frekle/Final_figures/CESM2/AMOC_45N_member/Best_test_R2/r3i1p1f1/Not_detrended/Selected_on_train/amoc_variant_normal/minlag_4
+r4i1p1f1,member,r4i1p1f1,3,-1.8019022057493292,0.41806140839282924,3,/data/users/frekle/Final_figures/CESM2/AMOC_45N_member/Best_test_R2/r4i1p1f1/Not_detrended/Selected_on_train/amoc_variant_normal/minlag_4
+r5i1p1f1,member,r5i1p1f1,1,-1.9964894073263033,0.4543006248159679,3,/data/users/frekle/Final_figures/CESM2/AMOC_45N_member/Best_test_R2/r5i1p1f1/Not_detrended/Selected_on_train/amoc_variant_normal/minlag_4
+r6i1p1f1,member,r6i1p1f1,1,0.479666769572628,0.3938139050467321,3,/data/users/frekle/Final_figures/CESM2/AMOC_45N_member/Best_test_R2/r6i1p1f1/Not_detrended/Selected_on_train/amoc_variant_normal/minlag_4
+r7i1p1f1,member,r7i1p1f1,3,-0.2834489695959297,0.47815744510376734,3,/data/users/frekle/Final_figures/CESM2/AMOC_45N_member/Best_test_R2/r7i1p1f1/Not_detrended/Selected_on_train/amoc_variant_normal/minlag_4
+r8i1p1f1,member,r8i1p1f1,1,-2.1285720960764105,0.5628337615948114,3,/data/users/frekle/Final_figures/CESM2/AMOC_45N_member/Best_test_R2/r8i1p1f1/Not_detrended/Selected_on_train/amoc_variant_normal/minlag_4
+r9i1p1f1,member,r9i1p1f1,3,-0.3044856139842447,0.45974055661665936,3,/data/users/frekle/Final_figures/CESM2/AMOC_45N_member/Best_test_R2/r9i1p1f1/Not_detrended/Selected_on_train/amoc_variant_normal/minlag_4

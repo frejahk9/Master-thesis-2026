@@ -1,0 +1,10 @@
+n= 15  ΔR²=+0.060  R²=0.182  | feature: var=thetao, lon=W20p0, mode=3, lag=11
+n= 21  ΔR²=+0.041  R²=0.314  | feature: var=thetao, lon=W10p0, mode=2, lag=10
+n= 19  ΔR²=+0.034  R²=0.256  | feature: var=thetao, lon=W20p0, mode=3, lag=10
+n= 28  ΔR²=+0.029  R²=0.388  | feature: var=thetao, lon=W10p0, mode=2, lag=11
+n= 12  ΔR²=+0.029  R²=0.108  | feature: var=so, lon=W30p0, mode=1, lag=11
+n= 18  ΔR²=+0.028  R²=0.221  | feature: var=thetao, lon=W20p0, mode=3, lag=12
+n= 11  ΔR²=+0.026  R²=0.080  | feature: var=thetao, lon=W10p0, mode=2, lag=9
+n= 43  ΔR²=+0.022  R²=0.465  | feature: var=thetao, lon=W10p0, mode=2, lag=12
+n= 20  ΔR²=+0.018  R²=0.273  | feature: var=so, lon=W30p0, mode=1, lag=12
+n= 22  ΔR²=+0.017  R²=0.331  | feature: var=thetao, lon=W20p0, mode=3, lag=9

@@ -2,6 +2,48 @@
 miniforge3/
 .venv/
 
+# Conda / environments
+miniforge3/
+conda/
+env/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data / model files
+*.nc
+*.npy
+*.npz
+*.zarr
+*.grib
+*.grb
+*.grb2
+*.mat
+
+# Large outputs
+Comparisons/
+EOF/**/Figures/
+EOF/EOF_diagnostics/
+**/all_subsets_scored.csv
+
+# Large intermediate tables
+all_subsets_scored.csv
+
+# Images and generated docs
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# OS/editor clutter
+.DS_Store
+.vscode/
+
 # Ignore data
 *.nc
 *.npy

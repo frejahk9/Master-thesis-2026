@@ -1,0 +1,2 @@
+N_seeds,W,alpha,mean_val_r2,std_val_r2,mean_val_corr,mean_val_var_ratio,mean_n_features,mean_max_lag,n_folds_used
+40.0,0.0,30.0,0.07082080319356387,0.24459816040197035,0.42280514991014534,0.4714408543181657,40.0,25.0,3.0

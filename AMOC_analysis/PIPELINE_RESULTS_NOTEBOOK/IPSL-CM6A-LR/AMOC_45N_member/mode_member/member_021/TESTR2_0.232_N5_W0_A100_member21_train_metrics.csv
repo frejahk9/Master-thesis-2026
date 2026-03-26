@@ -1,0 +1,2 @@
+train_r2,train_corr,train_var_ratio,max_lag_used,n_features_used
+0.5058392715710218,0.7112237844525602,0.7112237844525602,25,5

@@ -1,0 +1,2 @@
+trainval_r2,trainval_corr,trainval_var_ratio,n_trainval_used,test_r2,test_corr,test_var_ratio,n_test_used,overall_r2,overall_corr,overall_var_ratio,n_overall_used,max_lag_used,n_features_used
+0.7990776514487098,0.8939114337834085,0.8939114337834082,120,0.6553576962109995,0.9200794720587293,0.8233825381008744,25,0.7523507399151403,0.8734130357678278,0.8879592898914788,145,20,54

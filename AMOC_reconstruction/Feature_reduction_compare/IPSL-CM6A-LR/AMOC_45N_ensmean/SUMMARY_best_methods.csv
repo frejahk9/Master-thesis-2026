@@ -1,0 +1,4 @@
+method,n_features,R2_test
+A_baseline,1000,0.8555176516040983
+B_bestTopN(N=40),86,-0.9237854712649858
+C_bestGroup(K=60),600,0.7808635740482673

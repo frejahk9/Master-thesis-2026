@@ -1,0 +1,11 @@
+k,r2_test,corr_test,subset_idx,subset_features
+1,0.4050746848168033,0.9554497606735594,2,thetao W10p0 EOF2 lag2
+2,0.7603037130922746,0.9691438616934028,"0,5",thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag1
+3,0.8536963208663862,0.9784321334697564,"2,5,6",thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6
+4,0.8869320202418758,0.974373731773397,"0,2,5,6",thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6
+5,0.8959171742532634,0.9716638776153722,"0,1,2,5,6",thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6
+6,0.9008598274451107,0.970312851327096,"0,1,2,4,5,6",thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag5 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6
+7,0.8740279859223834,0.9690104360154257,"0,1,2,4,5,6,8",thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | thetao W10p0 EOF2 lag5 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6 | thetao W30p0 EOF2 lag0
+8,0.8289643253966511,0.9730845935828206,"0,1,2,3,4,5,6,8",thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | so W10p0 EOF1 lag1 | thetao W10p0 EOF2 lag5 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6 | thetao W30p0 EOF2 lag0
+9,0.7909211449267,0.9731269202422226,"0,1,2,3,4,5,6,8,9",thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | so W10p0 EOF1 lag1 | thetao W10p0 EOF2 lag5 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6 | thetao W30p0 EOF2 lag0 | so W30p0 EOF1 lag3
+10,0.7295819904016037,0.9737702518416549,"0,1,2,3,4,5,6,7,8,9",thetao W10p0 EOF2 lag4 | thetao W10p0 EOF2 lag3 | thetao W10p0 EOF2 lag2 | so W10p0 EOF1 lag1 | thetao W10p0 EOF2 lag5 | thetao W10p0 EOF2 lag1 | thetao W10p0 EOF2 lag6 | thetao W20p0 EOF2 lag1 | thetao W30p0 EOF2 lag0 | so W30p0 EOF1 lag3

@@ -1,0 +1,2 @@
+best_by,N_seeds,n_features,maxlag_used,alpha_chosen_on_val,R2_test,corr_test,var_ratio_test,mae_test,rmse_test
+val_R2,40,86,25,1.0,-0.9237854712649858,0.3868233676873384,0.43325525302392337,0.5846742861757834,0.7156008716362953

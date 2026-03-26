@@ -1,0 +1,15 @@
+Top 10 curve-selected candidate steps (mapped to ranked features)
+MODEL=EC-Earth3  TARGET=AMOC_26N_ensmean  MODE=ensmean
+curve_file=/data/users/frekle/Final_figures/EC-Earth3/AMOC_26N_ensmean/Feature_selection/spike_curve_post.csv
+candidate_method=all  topK=10  score_col=None
+
+n=  1  curve_r2=0.5190  feature=thetao W40p0 EOF5 lag20
+n=  2  curve_r2=0.6899  feature=thetao W30p0 EOF6 lag20
+n=  3  curve_r2=0.6964  feature=thetao W40p0 EOF5 lag19
+n=  4  curve_r2=0.7201  feature=thetao W10p0 EOF6 lag11
+n=  5  curve_r2=0.7292  feature=thetao W10p0 EOF6 lag12
+n=  6  curve_r2=0.7298  feature=thetao W10p0 EOF6 lag10
+n=  7  curve_r2=0.7300  feature=thetao W40p0 EOF5 lag18
+n=  8  curve_r2=0.7560  feature=thetao W30p0 EOF6 lag19
+n=  9  curve_r2=0.7675  feature=thetao W10p0 EOF6 lag13
+n= 10  curve_r2=0.7678  feature=thetao W10p0 EOF6 lag14

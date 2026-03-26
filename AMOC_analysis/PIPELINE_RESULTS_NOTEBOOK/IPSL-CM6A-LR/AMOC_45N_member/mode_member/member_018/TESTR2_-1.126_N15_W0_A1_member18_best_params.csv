@@ -1,0 +1,2 @@
+N_seeds,W,alpha,mean_val_r2,std_val_r2,mean_val_corr,mean_val_var_ratio,n_folds_used
+15.0,0.0,1.0,0.20014845437611045,0.03942528395810824,0.5492389183978899,0.736494335246753,2.0

@@ -1,0 +1,15 @@
+Top curve-selected candidate steps (mapped to ranked features)
+MODEL=MPI-ESM1-2-LR  TARGET=AMOC_45N_member  MODE=member  RUN=r11i1p1f1
+curve_file=/data/users/frekle/Final_figures/MPI-ESM1-2-LR/AMOC_45N_member/Feature_selection/r11i1p1f1/spike_curve_post.csv
+candidate_method=all  topK=10  score_col=None
+
+n=  1  curve_r2=0.0011  feature=so W10p0 EOF10 lag10
+n=  2  curve_r2=0.0089  feature=so W10p0 EOF10 lag11
+n=  3  curve_r2=0.0225  feature=so W40p0 EOF3 lag17
+n=  4  curve_r2=0.0235  feature=so W10p0 EOF10 lag9
+n=  5  curve_r2=0.0329  feature=so W60p0 EOF7 lag20
+n=  6  curve_r2=0.0330  feature=so W40p0 EOF3 lag18
+n=  7  curve_r2=0.0541  feature=so W10p0 EOF10 lag12
+n=  8  curve_r2=0.0749  feature=so W10p0 EOF7 lag16
+n=  9  curve_r2=0.0773  feature=so W40p0 EOF3 lag16
+n= 10  curve_r2=0.0774  feature=so W60p0 EOF7 lag19

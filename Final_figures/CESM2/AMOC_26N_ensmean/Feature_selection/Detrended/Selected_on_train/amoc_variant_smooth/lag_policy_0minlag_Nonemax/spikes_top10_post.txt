@@ -1,0 +1,15 @@
+Top curve-selected candidate steps (mapped to ranked features)
+MODEL=CESM2  TARGET=AMOC_26N_ensmean  MODE=ensmean
+curve_file=/data/users/frekle/Final_figures/CESM2/AMOC_26N_ensmean/Feature_selection/spike_curve_post.csv
+candidate_method=all  topK=10  score_col=None
+
+n=  1  curve_r2=0.8995  feature=so W30p0 EOF1 lag0
+n=  2  curve_r2=0.9005  feature=so W20p0 EOF1 lag0
+n=  3  curve_r2=0.9037  feature=so W30p0 EOF1 lag1
+n=  4  curve_r2=0.9051  feature=so W30p0 EOF1 lag2
+n=  5  curve_r2=0.9093  feature=so W20p0 EOF1 lag1
+n=  6  curve_r2=0.9091  feature=so W30p0 EOF1 lag3
+n=  7  curve_r2=0.9355  feature=so W60p0 EOF1 lag0
+n=  8  curve_r2=0.9412  feature=so W20p0 EOF1 lag2
+n=  9  curve_r2=0.9406  feature=so W20p0 EOF1 lag3
+n= 10  curve_r2=0.9416  feature=so W30p0 EOF1 lag4

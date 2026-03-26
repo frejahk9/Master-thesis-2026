@@ -1,0 +1,2 @@
+best_alpha_cv,best_mean_cv_r2,best_std_cv_r2,n_folds_used,test_r2_info_allcand,alpha_grid,cv_n_splits,cv_gap,cv_min_train,cv_min_val,GLOBAL_MAXLAG,n_candidates
+3.0,-0.25455184546474896,0.838910667643976,2,0.6219726266065267,"0.01,0.03,0.1,0.3,1,3,10,30,50,100,300",4,0,60,10,4,6

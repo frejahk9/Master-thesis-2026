@@ -1,0 +1,15 @@
+Top curve-selected candidate steps (mapped to ranked features)
+MODEL=MPI-ESM1-2-LR  TARGET=AMOC_45N_member  MODE=member  RUN=r5i1p1f1
+curve_file=/data/users/frekle/Final_figures/MPI-ESM1-2-LR/AMOC_45N_member/Feature_selection/r5i1p1f1/spike_curve_post.csv
+candidate_method=all  topK=10  score_col=None
+
+n=  1  curve_r2=0.0562  feature=so W60p0 EOF1 lag1
+n=  2  curve_r2=0.1088  feature=thetao W30p0 EOF6 lag13
+n=  3  curve_r2=0.1791  feature=thetao W30p0 EOF6 lag12
+n=  4  curve_r2=0.1854  feature=so W20p0 EOF10 lag3
+n=  5  curve_r2=0.1858  feature=so W20p0 EOF10 lag4
+n=  6  curve_r2=0.2189  feature=thetao W30p0 EOF6 lag11
+n=  7  curve_r2=0.2290  feature=thetao W10p0 EOF4 lag3
+n=  8  curve_r2=0.2342  feature=thetao W30p0 EOF8 lag6
+n=  9  curve_r2=0.2342  feature=so W10p0 EOF1 lag4
+n= 10  curve_r2=0.2477  feature=so W60p0 EOF1 lag0

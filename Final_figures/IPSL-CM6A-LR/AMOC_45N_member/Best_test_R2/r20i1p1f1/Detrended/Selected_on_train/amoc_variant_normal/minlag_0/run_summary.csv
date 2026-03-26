@@ -1,0 +1,2 @@
+run_label,mode,member_id,best_k,best_test_r2,best_train_r2,n_k_rows,outdir
+r20i1p1f1,member,r20i1p1f1,1,0.27706785527296296,0.6336543793153941,3,/data/users/frekle/Final_figures/IPSL-CM6A-LR/AMOC_45N_member/Best_test_R2/r20i1p1f1/Detrended/Selected_on_train/amoc_variant_normal/minlag_0

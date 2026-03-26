@@ -1,0 +1,2 @@
+test_r2,test_corr,test_var_ratio,test_r2_anom,test_corr_anom,test_var_ratio_anom,max_lag_used,n_features_used
+0.5344904290595469,0.8298496104902305,0.5408497198561169,0.6051294392442577,0.8298496104902306,0.5408497198561169,1,5

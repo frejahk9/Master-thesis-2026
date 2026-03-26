@@ -1,0 +1,4 @@
+k,r2_train,corr_train,r2_test,corr_test,subset_idx,subset_features,candidate_source,candidate_method,selected_by
+1,0.4017017244918819,0.6338210813267932,0.6072595114146528,0.8441904719314379,2,so W60p0 EOF1 lag8,spike_curve_post.csv,all,train
+2,0.5637469822399224,0.7508525017678965,0.38430640139276095,0.878954443116694,"2,16",so W60p0 EOF1 lag8 | thetao W40p0 EOF3 lag0,spike_curve_post.csv,all,train
+3,0.6172198590219113,0.7856461943666349,0.5838862259854924,0.915465220932009,"2,16,24",so W60p0 EOF1 lag8 | thetao W40p0 EOF3 lag0 | so W30p0 EOF1 lag5,spike_curve_post.csv,all,train

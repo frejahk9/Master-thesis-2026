@@ -1,0 +1,2 @@
+run_label,mode,member_id,n_figures,outdir
+ensmean,ensmean,None,3,/data/users/frekle/Final_figures/MPI-ESM1-2-LR/AMOC_45N_ensmean/Best_test_R2/Not_detrended/Selected_on_train/amoc_variant_normal/minlag_0

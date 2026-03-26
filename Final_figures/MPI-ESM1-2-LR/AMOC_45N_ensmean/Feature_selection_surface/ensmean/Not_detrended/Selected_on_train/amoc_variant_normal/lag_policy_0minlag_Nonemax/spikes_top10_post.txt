@@ -1,0 +1,15 @@
+Top curve-selected candidate steps (mapped to ranked features)
+MODEL=MPI-ESM1-2-LR  TARGET=AMOC_45N_ensmean  MODE=ensmean  RUN=ensmean
+curve_file=/data/users/frekle/Final_figures/MPI-ESM1-2-LR/AMOC_45N_ensmean/Feature_selection_surface/ensmean/spike_curve_post.csv
+candidate_method=all  topK=10  score_col=None
+
+n=  1  curve_r2=0.5647  feature=so EOF6 lag0
+n=  2  curve_r2=0.5602  feature=so EOF10 lag8
+n=  3  curve_r2=0.7076  feature=so EOF8 lag1
+n=  4  curve_r2=0.7725  feature=so EOF8 lag2
+n=  5  curve_r2=0.8204  feature=so EOF4 lag0
+n=  6  curve_r2=0.8367  feature=so EOF10 lag7
+n=  7  curve_r2=0.8505  feature=so EOF8 lag3
+n=  8  curve_r2=0.8554  feature=so EOF4 lag6
+n=  9  curve_r2=0.8564  feature=thetao EOF6 lag2
+n= 10  curve_r2=0.8562  feature=so EOF8 lag0

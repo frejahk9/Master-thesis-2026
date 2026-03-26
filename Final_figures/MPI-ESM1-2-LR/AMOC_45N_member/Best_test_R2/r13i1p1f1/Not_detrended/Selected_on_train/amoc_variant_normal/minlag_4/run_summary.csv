@@ -1,0 +1,2 @@
+run_label,mode,member_id,best_k,best_test_r2,best_train_r2,n_k_rows,outdir
+r13i1p1f1,member,r13i1p1f1,3,-1.0580581107247915,0.3635416980281857,3,/data/users/frekle/Final_figures/MPI-ESM1-2-LR/AMOC_45N_member/Best_test_R2/r13i1p1f1/Not_detrended/Selected_on_train/amoc_variant_normal/minlag_4

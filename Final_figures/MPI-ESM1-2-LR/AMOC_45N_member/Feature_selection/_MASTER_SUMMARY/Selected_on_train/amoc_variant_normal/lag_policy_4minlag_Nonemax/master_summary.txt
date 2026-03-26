@@ -1,0 +1,21 @@
+MASTER SUMMARY OF BEST SUBSETS
+==============================
+
+MODEL=MPI-ESM1-2-LR
+TARGET=AMOC_45N_member
+MODE=member
+SELECT_ON=train
+AMOC_VARIANT=normal
+MIN_LAG=4
+MAX_LAG=None
+BEST_BY=r2_train
+TIEBREAK_BY=r2_train
+N_RUNS=1
+
+Best subset per run:
+  Not_detrended: k=3  r2_train=0.4758  r2_test=-0.7137  features=so W40p0 EOF2 lag4 | thetao W10p0 EOF10 lag10 | thetao W40p0 EOF1 lag10
+
+Best subset per k across runs:
+  k=1: run=Not_detrended  r2_train=0.3307  r2_test=-0.8871  features=so W40p0 EOF2 lag4
+  k=2: run=Not_detrended  r2_train=0.4159  r2_test=-0.0300  features=so W40p0 EOF2 lag4 | thetao W60p0 EOF6 lag8
+  k=3: run=Not_detrended  r2_train=0.4758  r2_test=-0.7137  features=so W40p0 EOF2 lag4 | thetao W10p0 EOF10 lag10 | thetao W40p0 EOF1 lag10

@@ -1,0 +1,33 @@
+MODEL=CESM2
+TARGET=AMOC_45N_member
+MODE=member
+RUN_LABEL=r3i1p1f1
+member_id=r3i1p1f1
+AMOC_VARIANT=normal
+AMOC_VAR_USED=AMOC_45N_member
+TRAIN_END_YEAR=1989
+GLOBAL_MAXLAG=19
+WINDOW_LAG_POLICY=minlag
+START_LAG=4
+MIN_LAG=4
+MAX_LAG=None
+ALPHA=1.0
+DETREND_Y=False
+DETREND_X=False
+SPIKE_CURVE_CSV=/data/users/frekle/Final_figures/CESM2/AMOC_45N_member/Feature_selection/r3i1p1f1/spike_curve_post.csv
+RANK_CSV=/data/users/frekle/Final_figures/CESM2/AMOC_45N_member/Feature_selection/r3i1p1f1/feature_ranking_pre.csv
+CANDIDATE_METHOD=all
+CURVE_NS=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+SELECT_ON=train
+TIEBREAK_ON=test
+
+Best subsets by k:
+
+K=1  R2_train=0.250386  corr_train=0.500399  R2_test=-2.964582  corr_test=0.702273
+so W30p0 EOF1 lag4
+
+K=2  R2_train=0.355147  corr_train=0.595953  R2_test=-1.199747  corr_test=0.759409
+thetao W40p0 EOF2 lag4 | so W60p0 EOF4 lag14
+
+K=3  R2_train=0.408998  corr_train=0.639539  R2_test=-1.832819  corr_test=0.859019
+thetao W40p0 EOF2 lag4 | thetao W40p0 EOF2 lag9 | so W60p0 EOF4 lag14

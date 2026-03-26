@@ -1,0 +1,21 @@
+MASTER SUMMARY OF BEST SUBSETS
+==============================
+
+MODEL=CESM2
+TARGET=AMOC_45N_member
+MODE=member
+SELECT_ON=train
+AMOC_VARIANT=normal
+MIN_LAG=4
+MAX_LAG=None
+BEST_BY=r2_train
+TIEBREAK_BY=r2_train
+N_RUNS=1
+
+Best subset per run:
+  Not_detrended: k=3  r2_train=0.4521  r2_test=-0.3183  features=thetao W60p0 EOF5 lag6 | thetao W10p0 EOF5 lag7 | thetao W60p0 EOF7 lag7
+
+Best subset per k across runs:
+  k=1: run=Not_detrended  r2_train=0.2954  r2_test=-0.3529  features=thetao W60p0 EOF5 lag7
+  k=2: run=Not_detrended  r2_train=0.3891  r2_test=-0.3768  features=thetao W60p0 EOF5 lag6 | thetao W60p0 EOF7 lag7
+  k=3: run=Not_detrended  r2_train=0.4521  r2_test=-0.3183  features=thetao W60p0 EOF5 lag6 | thetao W10p0 EOF5 lag7 | thetao W60p0 EOF7 lag7

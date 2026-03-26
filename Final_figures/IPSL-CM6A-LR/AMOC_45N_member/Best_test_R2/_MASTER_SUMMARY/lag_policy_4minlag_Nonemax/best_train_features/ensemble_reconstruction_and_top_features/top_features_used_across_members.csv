@@ -1,0 +1,4 @@
+feature,count,var,lon,mode,lag
+so W30p0 EOF1 lag4,34,so,W30p0,1,4
+thetao W20p0 EOF1 lag4,15,thetao,W20p0,1,4
+thetao W30p0 EOF4 lag4,10,thetao,W30p0,4,4

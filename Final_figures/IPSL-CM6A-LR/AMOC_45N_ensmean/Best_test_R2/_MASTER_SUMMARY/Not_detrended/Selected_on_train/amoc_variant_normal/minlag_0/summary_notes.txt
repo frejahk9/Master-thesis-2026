@@ -1,0 +1,8 @@
+MODEL=IPSL-CM6A-LR
+TARGET=AMOC_45N_ensmean
+MODE=ensmean
+AMOC_VARIANT=normal
+N_RUNS=1
+
+Top runs by best_test_r2:
+ensmean: best_k=3  best_test_r2=0.6961  best_train_r2=0.7239

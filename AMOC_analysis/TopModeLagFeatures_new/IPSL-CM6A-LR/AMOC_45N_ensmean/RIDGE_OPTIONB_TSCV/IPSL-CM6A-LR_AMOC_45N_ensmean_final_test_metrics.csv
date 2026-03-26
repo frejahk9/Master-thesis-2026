@@ -1,0 +1,2 @@
+model,target,year_start,year_end,trainval_start,trainval_end,test_start,test_end,TEST_FRAC,N_SPLITS,best_N_seeds,best_W,best_alpha,max_lag_used,n_features_used,test_r2,test_corr,test_var_ratio
+IPSL-CM6A-LR,AMOC_45N_ensmean,1850,2014,1850,1981,1982,2014,0.2,5,50,1,100.0,25,78,0.6768465782230412,0.9193942511823772,0.5185515312448912

@@ -1,0 +1,5 @@
+n=  2  ΔR²=+0.087  R²=0.884  | feature: var=so, mode=3, lag=2
+n= 10  ΔR²=+0.036  R²=0.928  | feature: var=thetao, mode=3, lag=5
+n= 24  ΔR²=+0.019  R²=0.977  | feature: var=so, mode=7, lag=19
+n= 16  ΔR²=+0.013  R²=0.953  | feature: var=thetao, mode=3, lag=3
+n= 12  ΔR²=+0.010  R²=0.938  | feature: var=thetao, mode=3, lag=4
